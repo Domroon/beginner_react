@@ -1,10 +1,14 @@
 import React from 'react';
+import './sayHello';
+import Hello from './sayHello';
+import Tweet from './Tweet';
 
-function App()
-{
+function App(){
   return(
     <div>
-      <h1>Hello World</h1>
+      <h1>THis is the App component</h1>
+      <Hello />
+      <Tweet />
     </div>
   );
 }
