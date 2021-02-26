@@ -2,12 +2,11 @@ import React from 'react';
 import './sayHello';
 import Hello from './sayHello';
 import Tweet from './Tweet';
+import './App.css'
 
 function App(){
   return(
-    <div>
-      <h1>THis is the App component</h1>
-      <Hello />
+    <div className="app">
       <Tweet />
     </div>
   );
